@@ -1,0 +1,4 @@
+Method,Mean Top-Pick Matches (0-3),Mean List Match Rate (%)
+Chakra-only baseline,2.0,65.02000000000001
+Equal-weight personalization,3.0,65.02000000000001
+Weighted personalization,3.0,65.02000000000001

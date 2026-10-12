@@ -1,0 +1,16 @@
+Profile,Method,Top Pose,Top-Pick Matches (0-3),List Match Rate (%),Number of Poses
+Profile 1,Chakra-only baseline,Mountain Pose,1,58.3,4
+Profile 1,Equal-weight personalization,Child's Pose,3,58.3,4
+Profile 1,Weighted personalization,Child's Pose,3,58.3,4
+Profile 2,Chakra-only baseline,Bound Angle Pose,3,77.8,3
+Profile 2,Equal-weight personalization,Bound Angle Pose,3,77.8,3
+Profile 2,Weighted personalization,Bound Angle Pose,3,77.8,3
+Profile 3,Chakra-only baseline,Boat Pose,3,66.7,3
+Profile 3,Equal-weight personalization,Boat Pose,3,66.7,3
+Profile 3,Weighted personalization,Boat Pose,3,66.7,3
+Profile 4,Chakra-only baseline,Cobra Pose,2,66.7,3
+Profile 4,Equal-weight personalization,Bridge Pose,3,66.7,3
+Profile 4,Weighted personalization,Bridge Pose,3,66.7,3
+Profile 5,Chakra-only baseline,Easy Pose,1,55.6,3
+Profile 5,Equal-weight personalization,Tree Pose,3,55.6,3
+Profile 5,Weighted personalization,Tree Pose,3,55.6,3
