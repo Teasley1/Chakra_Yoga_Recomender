@@ -33,7 +33,7 @@ The equal list-match rate is expected because all three methods return the same 
 The notebook embeds 21 manually organized pose records with Pose, Chakra, Level, Body Focus, Goal, Minutes, and source-page URL fields. Public pose pages are attributed to Tummee (https://www.tummee.com/yoga-poses). Fields are manually assigned for this prototype and must not be represented as independently validated medical advice. The baseline takes the first four poses in the selected chakra in dataset order. Equal-weight scoring assigns 1 point for each match on level, body focus, and goal (plus a common 1-point chakra-filter base). Weighted scoring assigns 1, 2, and 3 points respectively. Minutes break ties. No model training, random split, or fine-tuning was performed.
 
 ## Evaluation and limitations
-The five profiles are hand-selected and are not a representative user sample. Top-pick match counts matching metadata fields (0–3), not clinical suitability or real-world satisfaction. The notebook's 15 'reviewer' choices are **simulated illustrative responses, not actual human participants** and must not be presented as human evaluation evidence. No IRB approval or human-subject experiment is claimed. Some chakra categories contain fewer than four poses. Pose labels, source URLs, and suitability need independent verification.
+The five profiles are hand-selected and are not a representative user sample. Top-pick match counts measure agreement with three metadata fields (0–3), not clinical suitability or real-world satisfaction, not clinical suitability or real-world satisfaction. The notebook's 15 'reviewer' choices are **simulated illustrative responses, not actual human participants** and must not be presented as human evaluation evidence. No IRB approval or human-subject experiment is claimed. Some chakra categories contain fewer than four poses. Pose labels, source URLs, and suitability need independent verification.
 
 ## Included files
 - `Chakra_Yoga_Recommender_Final_Expanded.ipynb` — executable notebook
@@ -41,8 +41,12 @@ The five profiles are hand-selected and are not a representative user sample. To
 - `three_method_summary.csv` — mean metrics
 - `three_method_comparison.png` — results visualization
 - `requirements.txt` — Python dependencies
-- `DEMO_SCRIPT.md` — recording outline
-- `SUPPLEMENTAL_PAGE_TEMPLATE.md` — fill-in links for the final PDF
 
-## Public access checklist
-Before submission, upload these materials to a **public GitHub repository** (or another instructor-approved accessible host). Test the link in a private/incognito window. Add the final repository URL and demo video URL to the supplemental page of the paper. Do not publish personal information or credentials.
+## Project Access
+
+The project notebook, evaluation results, visualization, and dependency information are provided in this repository.
+
+The recorded video demonstration and repository link are included on the supplemental page of the final research paper.
+## AI Assistance Disclosure
+
+I used ChatGPT to assist with notebook organization, testing logic, debugging, and documentation. I reviewed the implementation and reported results. No AI-generated voice narration was used in my recorded demonstration.
