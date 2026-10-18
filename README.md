@@ -12,8 +12,14 @@ This is a small **rule-based** yoga-pose recommendation prototype. It compares (
 4. Download these files from the Colab Files sidebar if desired.
 
 ## Reproduce locally
-Use Python 3 with pandas and matplotlib installed. Install dependencies using `python -m pip install -r requirements.txt`, open the notebook in Jupyter, and run all cells top to bottom. The notebook uses IPython's `display` function, which works in Jupyter/Colab.
+1. Download or clone this GitHub repository.
+2. Install Python 3 and Jupyter Notebook.
+3. Open a terminal in the project folder.
+4. Install dependencies using `python -m pip install -r requirements.txt`.
+5. Open `Chakra_Yoga_Recommender_Final_Expanded.ipynb` in Jupyter Notebook.
+6. Select **Run All** to execute every cell from top to bottom.
 
+**Hardware requirements:** A standard personal computer is sufficient. No GPU or specialized hardware is required. The notebook uses IPython's `display` function, supported in Jupyter and Google Colab.
 ## Expected comparison (five fixed profiles)
 | Method | Mean top-pick preference matches (0–3) | Mean list match rate |
 | --- | ---: | ---: |
